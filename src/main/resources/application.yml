@@ -1,0 +1,33 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/myblog
+    username: root
+    password: jixing
+  mvc:
+    static-path-pattern: /static/**
+    hidden-method:
+      filter:
+        enabled: true
+  mail:
+    host: smtp.163.com
+    protocol: smtp
+    default-encoding: UTF-8
+    username: jixingiff@163.com
+    password: MGVQCPEHEIZPMPSJ
+    test-connection: true
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+            required: true
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+  lazy-initialization: true
+  configuration:
+    map-underscore-to-camel-case: true
+#logging:
+#  level:
+#    wiki.jixing.myblog.mapper: debug

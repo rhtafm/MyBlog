@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="wiki.jixing.myblog.mapper.TagMapper">
+    <resultMap id="tagMap" type="wiki.jixing.myblog.entity.Tag">
+        <id column="id" property="id"/>
+        <result column="name" property="name"/>
+        <result column="create_time" property="createTime"/>
+        <result column="update_time" property="updateTime"/>
+        <association property="articleCount" select="wiki.jixing.myblog.mapper.ArticleMapper.countByTagId" column="id"/>
+    </resultMap>
+    <insert id="insert" useGeneratedKeys="true" keyProperty="id">
+        insert into tag(name, create_time, update_time)
+        values (#{name}, #{createTime}, #{updateTime})
+    </insert>
+    <update id="update">
+        update tag
+        <set>
+            <if test="name != null">name = #{name},</if>
+            <if test="updateTime != null">update_time = #{updateTime},</if>
+        </set>
+        where id = #{id}
+    </update>
+    <delete id="deleteById">
+        delete from tag where id = #{id}
+    </delete>
+    <select id="count" resultType="java.lang.Integer">
+        select count(*) from tag
+    </select>
+    <select id="selectById" resultMap="tagMap">
+        select * from tag where id = #{id}
+    </select>
+    <select id="selectLikeName" resultMap="tagMap">
+        select * from tag where name like #{name} order by id desc
+    </select>
+    <select id="listAll" resultMap="tagMap">
+        select * from tag order by id desc
+    </select>
+    <select id="listByIds" resultMap="tagMap">
+        select * from tag where
+        <foreach collection="tagIds" item="tagId" separator="or">
+            id = #{tagId}
+        </foreach>
+        order by id desc
+    </select>
+    <select id="selectArticleAndTagsTagIdsByArticleId" resultType="java.lang.Integer">
+        select tag_id from article_tag where article_id = #{articleId}
+    </select>
+</mapper>

@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f45bf9fa-41d9-408e-a52c-6e86173eec67" name="变更" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="JRebelWorkspace">
+    <option name="jrebelEnabledAutocompile" value="true" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\apache-maven-3.8.4\mvn_repo" />
+        <option name="mavenHome" value="D:/apache-maven-3.8.4" />
+        <option name="useMavenConfig" value="true" />
+        <option name="userSettingsFile" value="D:\apache-maven-3.8.4\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="jdkForImporter" value="11" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="delegateBuildToMaven" value="true" />
+    <option name="jreName" value="11" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectId" id="2B9lPrHGcLf4AUmrMfsEpEQbz7p" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/IDEA_workspace/MyBlog/src/main/resources/static/js&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.uml&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;722bd36509ab6c9baa812941ed00746c&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
+    ]
+  }
+}</component>
+  <component name="RebelAgentSelection">
+    <selection>jr</selection>
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\IDEA_workspace\MyBlog\src\main\resources\static\js" />
+      <recent name="E:\IDEA_workspace\MyBlog\src\main\resources\templates\admin" />
+      <recent name="E:\IDEA_workspace\MyBlog" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.MyBlogApplication">
+    <configuration name="EmailTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MyBlog" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="wiki.jixing.myblog.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="wiki.jixing.myblog.utils" />
+      <option name="MAIN_CLASS_NAME" value="wiki.jixing.myblog.utils.EmailTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EmailTest.email" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MyBlog" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="wiki.jixing.myblog.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="wiki.jixing.myblog.utils" />
+      <option name="MAIN_CLASS_NAME" value="wiki.jixing.myblog.utils.EmailTest" />
+      <option name="METHOD_NAME" value="email" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EmailTest.email1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MyBlog" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="wiki.jixing.myblog.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="wiki.jixing.myblog.utils" />
+      <option name="MAIN_CLASS_NAME" value="wiki.jixing.myblog.utils.EmailTest" />
+      <option name="METHOD_NAME" value="email1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyBlogApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="ACTIVE_PROFILES" />
+      <module name="MyBlog" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="wiki.jixing.myblog.MyBlogApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.EmailTest.email" />
+        <item itemvalue="JUnit.EmailTest.email1" />
+        <item itemvalue="JUnit.EmailTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="SpringBootOptions">
+    <option name="showAdditionalConfigNotification" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="f45bf9fa-41d9-408e-a52c-6e86173eec67" name="变更" comment="" />
+      <created>1656326163639</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1656326163639</updated>
+      <workItem from="1656326165559" duration="1418000" />
+      <workItem from="1656327691599" duration="75000" />
+      <workItem from="1656330570980" duration="12754000" />
+      <workItem from="1656375621590" duration="4823000" />
+      <workItem from="1656396425263" duration="7172000" />
+      <workItem from="1656410472823" duration="3307000" />
+      <workItem from="1656461336959" duration="5821000" />
+      <workItem from="1656468972102" duration="2644000" />
+      <workItem from="1656482254751" duration="4091000" />
+      <workItem from="1656487101283" duration="26000" />
+      <workItem from="1656487136687" duration="387000" />
+      <workItem from="1656487708658" duration="1242000" />
+      <workItem from="1656496302882" duration="10483000" />
+      <workItem from="1656516955962" duration="138000" />
+      <workItem from="1656517108803" duration="225000" />
+      <workItem from="1656547660797" duration="3539000" />
+      <workItem from="1656569267364" duration="1233000" />
+      <workItem from="1656570568112" duration="7000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
