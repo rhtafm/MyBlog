@@ -48,7 +48,7 @@
 ![](https://pic.imgdb.cn/item/62bd71091d64b0706641d776.jpg)
 
 ## 文章分类
-![](https://pic.imgdb.cn/item/62bd6f851d64b070663eb7cb.jpg)
+![](https://pic.imgdb.cn/item/62bd75ca1d64b070664b1623.jpg)
 
 ## 文章详情
 ![](https://pic.imgdb.cn/item/62bd6fc41d64b070663f3f47.jpg)
