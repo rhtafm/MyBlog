@@ -166,7 +166,7 @@ public class UserController {
     public Result updateCheckCode(HttpSession session, @PathVariable String email) {
         String checkCode = RandomCheckCode.getCheckCode();
         SimpleMailMessage message = new SimpleMailMessage();
-        message.setFrom("jixingiff@163.com");
+        message.setFrom("******");
         message.setTo(email);
         message.setSubject("From jixing'blog");
         message.setText("您的验证码为: " + checkCode + ", 有效时间为60秒");
