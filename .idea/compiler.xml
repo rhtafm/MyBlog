@@ -10,8 +10,8 @@
         <module name="MyBlog" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="MyBlog" target="11" />
+    <bytecodeTargetLevel target="8">
+      <module name="MyBlog" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
