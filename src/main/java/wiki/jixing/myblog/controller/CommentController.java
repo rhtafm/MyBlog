@@ -49,10 +49,16 @@ public class CommentController {
                     StringBuilder emailBuilder = new StringBuilder();
                     if (d <= 3) {
                         emailBuilder = new StringBuilder(email.substring(0, 1));
-                        emailBuilder.append("*".repeat(d - 1)).append(email.substring(d));
+                        for (int i = 0; i < d - 1; i++) {
+                            emailBuilder.append("*");
+                        }
+                        emailBuilder.append(email.substring(d));
                     } else {
                         emailBuilder = new StringBuilder(email.substring(0, 3));
-                        emailBuilder.append("*".repeat(d - 3)).append(email.substring(d));
+                        for (int i = 0; i < d - 3; i++) {
+                            emailBuilder.append("*");
+                        }
+                        emailBuilder.append(email.substring(d));
                     }
                     email = emailBuilder.toString();
                     user.setEmail(email);

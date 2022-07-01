@@ -2,8 +2,8 @@ spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://localhost:3306/myblog
-    username: ******
-    password: ******
+    username: root
+    password: jixing
   mvc:
     static-path-pattern: /static/**
     hidden-method:
@@ -13,8 +13,8 @@ spring:
     host: smtp.163.com
     protocol: smtp
     default-encoding: UTF-8
-    username: ******
-    password: ******
+    username: jixingiff@163.com
+    password: MGVQCPEHEIZPMPSJ
     test-connection: true
     properties:
       mail:
